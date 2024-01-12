@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
 }
 
 .logo { 
@@ -58,8 +59,9 @@
     min-height: 100%;
     min-width: 100%;
     z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.imgur.com/KpauGog.mp4);
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
 }
+
 
 
 
