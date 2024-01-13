@@ -60,6 +60,7 @@
     min-width: 100%;
     z-index: -1;
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
+    overflow: hidden;
     
 }
 
@@ -80,8 +81,9 @@
     position: relative;
     background-color: white;
     top: 100%;
-    height: 100%;
+    height: 1000%;
     width: 100%;
+    background-size: cover;
 }
 
 .h11 {
@@ -92,16 +94,88 @@
     font-family: Mongolian Baiti;
     font-weight: 100;
 }
-
+.h12 {
+    font-size: 50px;
+    text-align: left;
+    margin: 15px;
+    padding: 60px;
+    font-family: Mongolian Baiti;
+    font-weight: 100;
+     
+    
+}
 #high {
     height: 270px;
     padding: 30px;
     
 }
 
+.highlight2 {
+     position: relative;
+    background-color: white;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
 
+.introboi {
+    font-size: 20px;
+    font-family: Cascadia Mono SemiBold;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    
+}
 
+.introboi::before{
+    content:"";
+    display: block;
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 50%;
+    
+}
 
+.introboi::after{
+    content:"";
+    display: block;
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    right: 0;
+    top: 50%;
+    
+}
+.text {
+     text-align: justify;
+     font-size: 30px;
+     text-justify: inter-word;
+    text-align: center;
+    color: #99A3A4 ;
+}
+
+.hightext {
+    color: black;
+
+}
+.palace {
+    color: black;
+    
+}
+.visit {
+     color: black;
+
+}
+.break {
+    color: black;
+}
 
 
 
