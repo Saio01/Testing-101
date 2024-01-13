@@ -24,10 +24,32 @@
     list-style: none;
     display: inline-block;
     margin: 30px;
+    position: relative;
+    
 }
 
+.niggabar ul li::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.niggabar ul li:hover::after {
+    width: 100%;
+    
+    
+    
+    
+    
+    
+}
 .niggabar ul li a {
-    text-decoration: underline; 
+    text-decoration: none; 
     color: white;
 }
 
@@ -73,9 +95,22 @@
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    
+    cursor: pointer;
+    transition: 0.5s;
     
 }
+.btn:hover{
+    background-color:#0E6655 ;
+}
+
+
+
+
+
+
+
+
+
 
 .highlight {
     position: relative;
@@ -127,6 +162,7 @@
     font-weight: 100;
     text-align: center;
     position: relative;
+    letter-spacing: 0.5;
     
 }
 
@@ -158,7 +194,7 @@
      font-size: 30px;
      text-justify: inter-word;
     text-align: center;
-    color: #99A3A4 ;
+    color: #7F8C8D  ;
 }
 
 .hightext {
@@ -176,37 +212,3 @@
 .break {
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
